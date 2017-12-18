@@ -1,0 +1,12 @@
+.main-body-tabs{
+    border: 1px solid rgb(245, 242, 242);
+}
+/*.advertisement{
+    border: 2px solid blue;
+ }*/
+ .main-body{
+    padding:15px;
+ }
+ .nav-tabs{
+     color: black;
+ }

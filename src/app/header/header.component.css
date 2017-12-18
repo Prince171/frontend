@@ -1,0 +1,12 @@
+
+.signin{
+    float:right;
+}
+.navbar-default{
+    /*background-color: #f4f8f7;*/
+    background-color: #2e2d2d;
+}
+.navbar-brand{
+    color: #ebebeb;
+    font-weight: 550;
+}

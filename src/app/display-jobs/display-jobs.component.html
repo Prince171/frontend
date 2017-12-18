@@ -1,0 +1,25 @@
+<div class="result">
+  <div class=container-fluid>
+  <div class="row" *ngFor="let job of jobs; let i=index">
+      <div class="col-sm-12 col-md-3" >
+          <img src="assets/img/tie.jpg" class="img-responsive" style="height:60px"> 
+      </div>
+      <div class="col-sm-12 col-md-3  ">
+            <h4>Motelname</h4>
+            <p>{{job.motelName}}</p>
+      </div>
+      <div class="col-sm-12 col-md-3 ">
+          <p>Type:{{job.jobType}} </p> 
+          <p>Location:{{job.location}}  </p>
+      </div>
+      <div class="col-sm-12 col-md-3 ">
+          <p>Name:{{job.userFirstname}}</p>
+          <p>Phone number:{{job.userPhone}}</p>
+      </div>
+        <hr>
+  </div>
+  </div>
+</div>
+
+
+

@@ -1,0 +1,27 @@
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-md-2">
+        <div class="advertisement">
+               
+        </div> 
+      </div>
+      <div class="col-md-8 ">
+        <div class="main-body-tabs">
+              <ul class="nav nav-tabs nav-justified">
+                <li [class.active]="activeJobs"><a (click)="onClickJobs()">Jobs</a></li>
+                <li [class.active]="activeBuy"><a (click)="onClickBuy()">Buy/lease</a></li>
+                <li [class.active]="activeSupplies"><a (click)="onClickSupplies()">Supplies</a></li>
+                <li [class.active]="activeDiscuss"><a (click)="onClickDiscuss()">Discuss</a></li>
+            </ul>
+          </div>
+          <div class="main-body">
+            <app-display-jobs *ngIf="activeJobs"></app-display-jobs>
+          </div>
+      </div>
+      <div class="col-md-2">
+          <div class="advertisement">
+              
+          </div> 
+      </div>
+  </div>
+</div>
